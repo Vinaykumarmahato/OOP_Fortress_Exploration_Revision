@@ -45,7 +45,7 @@ class PassengerPlane extends Aeroplane {
 
 // UML : Unified Modeling Language: Pictorial Reporesantion of the Diagram is
 // called UML Diagram.
-public class InheritedMethodSolution1 {
+public class InheritedMethodOverriddingMethodSpecialisedMethod {
 
     public static void main(String[] args) {
 
