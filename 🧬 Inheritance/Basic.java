@@ -24,7 +24,7 @@ class Student extends Human {
 
 }
 
-public class Solution1 {
+public class Basic {
 
     public static void main(String[] args) {
 
