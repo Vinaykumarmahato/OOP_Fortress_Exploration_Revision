@@ -4,6 +4,5 @@
 	<classpathentry kind="src" path="🌐 Encapsulation"/>
 	<classpathentry kind="src" path="📦 Classes and Objects"/>
 	<classpathentry excluding="🧬👑 Types of Inheritance/" kind="src" path="🧬 Inheritance"/>
-	<classpathentry kind="src" path="🧬 Inheritance/🧬👑 Types of Inheritance"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
