@@ -1,37 +1,41 @@
 
-class Demo1{
-	void Display() {
-		
-		System.out.println("Display method return in Demo1 Class");
-	}
-	
+class Parent1{
+
+    int age=18;
+
 }
 
-class Demo2 extends Demo1{
-	
-	
+class Parent2{
+
+    int age=19;
+
+
 }
 
-class Demo3 extends Demo2{
-	
-	
-}
+//class Child extends Parent1  Parent2{ when we called both parent class then compiler will be ambiguous 
+  //  it is also called as ambiguity in the programs. so it is also called as Multilevel Inheritance.
+    
+   // 
 
-class Demo4 extends Demo3{
-	
-	
-}
+
+//}
+
 
 
 public class MultiLevelInheritance {
 
 	public static void main(String[] args) {
 		
-		
-		Demo4 Demoinfo=new Demo4();
-		
-		Demoinfo.Display();
-	
+	/*
+     
+    
+    
+    When one child class want to inherits the two parent class then it is called a Multiple Inheritance.
+     
+
+
+
+     */
 
 	}
 
