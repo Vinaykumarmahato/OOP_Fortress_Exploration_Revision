@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="🌐 Encapsulation"/>
+	<classpathentry kind="src" path="📦 Classes and Objects"/>
+	<classpathentry excluding="🧬👑 Types of Inheritance/" kind="src" path="🧬 Inheritance"/>
+	<classpathentry kind="src" path="🧬 Inheritance/🧬👑 Types of Inheritance"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
