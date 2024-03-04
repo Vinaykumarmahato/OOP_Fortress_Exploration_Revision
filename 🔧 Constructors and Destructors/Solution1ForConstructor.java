@@ -87,7 +87,7 @@ public class Solution1ForConstructor {
         // 40. Default Private Public Constructor
 
 
-Student obj = new Student("Vinay Kumar", 22);
+Student obj = new Student();
 // obj.setName("Vinay Kumar");
 // obj.setAge(22);
 // // Constructor is called when the object is created.
