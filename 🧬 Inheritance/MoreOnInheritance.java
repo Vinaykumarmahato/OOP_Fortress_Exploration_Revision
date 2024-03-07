@@ -7,6 +7,16 @@ class human {
 
 		System.out.println("This is Human class constructor");
 	}
+
+    public void D0() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'D0'");
+    }
+
+    public void Play() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'Play'");
+    }
 }
 
 class Student extends human {
