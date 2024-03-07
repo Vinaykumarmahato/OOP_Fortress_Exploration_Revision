@@ -4,6 +4,11 @@ abstract class Aeroplane {
 
     abstract public void Fly();
 
+    // abstract int age=20; Variable can not be Abstract
+
+    // Note: Constructor also can not be a abstract because by default include super
+    // method and body will be there but in abstract we will not have the body
+
     public void Landing() {
         System.out.println("Aeroplane is landing");
         // to add this method without abstract then we say that we can not achieve 100%
@@ -67,15 +72,18 @@ public class Abstractex {
         Aeroplane ref1 = new CargoPlane();
         Aeroplane ref2 = new PassengerPlane();
 
-        ref1.TakeOff();
+        ref1.TakeOff(); // Using parent type method we can call overridden method, inherited method but
+                        // not specialized method.
         ref1.Fly();
+        ref1.Landing();
+        ((CargoPlane) ref1).alert();// this is called Down Casting in java
 
         System.out.println("-------------------");
 
         ref2.TakeOff();
         ref2.Fly();
+        ref2.Landing();
 
-        Aeroplane ref = new Aeroplane();
         // we can not create the object of a abstract method because the method has no
         // body.
         // Abstract method also a incomplete class Thats why we cant create the object
