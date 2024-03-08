@@ -15,10 +15,10 @@ class A {
 
 
     void show(){
-        System.out.println("In show");
+        System.out.println("In show"); 
     }
 
-    class B {
+    static class B {
 
         void Dis(){
             System.out.println("In Display");
@@ -35,6 +35,7 @@ class A {
  * member (Non static)
  * static
  * Anonymous
+ * 
  */
 
 public class InnerClassInJava {
@@ -43,5 +44,12 @@ public class InnerClassInJava {
 
         A obj = new A();
         obj.show();
+
+       // A.B obj1=obj.new B(); // this is for non static class
+        A.B obj1=new A.B(); // this is for non static class
+
+
+        obj1.Dis();
+
     }
 }
