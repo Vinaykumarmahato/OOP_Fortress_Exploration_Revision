@@ -15,6 +15,7 @@ interface A {
 
 public class InterfaceExplanation {
     public static void main(String[] args) {
+        
 
         System.out.println(A.num);
 
