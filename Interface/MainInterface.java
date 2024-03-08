@@ -1,30 +1,28 @@
-class Laptop{
+class Laptop {
 
-    public void CompileCode(){
+    public void CompileCode() {
 
         System.out.println("Hey! Don't Do The Silly Error!");
     }
 }
 
+class Developer {
+    Laptop obj = new Laptop();
 
-class Developer{
-
-    public void BuildApp(){
+    public void BuildApp() {
 
         System.out.println("Building the app!");
-       // CompileCode();
-       Laptop obj=new Laptop();
-       obj.CompileCode();
+        //CompileCode();
+        obj.CompileCode();
     }
-
 
 }
 
-
 public class MainInterface {
-    
+
     public static void main(String[] args) {
-        Developer Dev=new Developer();
+        Developer Dev = new Developer();
+
         Dev.BuildApp();
 
     }
