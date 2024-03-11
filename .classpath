@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="🖥️Interface"/>
 	<classpathentry kind="src" path="🤔🤖Lambda Expression"/>
 	<classpathentry kind="src" path="⚠️🛠️Exception Handling"/>
+	<classpathentry kind="src" path="🔄🧵Multithreading"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
