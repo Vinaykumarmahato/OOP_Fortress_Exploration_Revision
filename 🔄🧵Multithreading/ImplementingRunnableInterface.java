@@ -77,11 +77,6 @@ public class ImplementingRunnableInterface {
         Thread t3=new Thread(mt);
         t1.start();
         t2.start();
-        t3.start();
-
-       
-
-
-       
+        t3.start(); 
     }
 }
