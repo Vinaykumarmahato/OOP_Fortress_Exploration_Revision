@@ -30,7 +30,7 @@ public class JoinMethodAndIsAliveMethod {
         System.out.println(t1.isAlive()); // Output: false
 
         // Starting the thread, now it should be alive
-        t1.start();
+        t1.start(); 
         
         // Checking if the thread is alive after starting (should be true)
         System.out.println(t1.isAlive()); // Output: true
