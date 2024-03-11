@@ -73,8 +73,11 @@ public class ImplementingRunnableInterface {
         // threadPattern.start();
         // threadMotivation.start();
         Thread t1=new Thread(cl);
-        Thread t2=new Thread();
-        Thread t3=new Thread();
+        Thread t2=new Thread(pt);
+        Thread t3=new Thread(mt);
+        t1.start();
+        t2.start();
+        t3.start();
 
        
 
