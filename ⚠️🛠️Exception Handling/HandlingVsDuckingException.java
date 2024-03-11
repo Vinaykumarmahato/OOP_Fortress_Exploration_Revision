@@ -16,26 +16,28 @@ Handling Vs Ducking in java
 
 class Demo {
 
-    public void a() {
+    public void a() throws Exception {
+        
+
+            b();
+       
 
     }
 
-    public void b() { throw Exception // this will be used for says the method b() hey man just handle this i will not handle this exception 
+    public void b()throws Exception {
 
-        c();
+
     }
 
-    public void c(){ 
+    public void c() throws Exception // this will be used for says the method b() hey man just handle this i will not
+                                     // handle this exception
+    {
 
-        int num1=10;
-        int num2=0;
-        try{
-            int Result=num1 / num2;
+        int num1 = 10;
+        int num2 = 0;
+
+        int Result = num1 / num2;
         System.out.println(Result);
-        }
-        catch(ArithmeticException e){
-            System.out.println("Error.."+e.getMessage());
-        }
 
     }
 }
@@ -45,7 +47,13 @@ public class HandlingVsDuckingException {
     public static void main(String[] args) {
 
         Demo obj = new Demo();
-        obj.b();
+        try{
+            obj.b();
+
+        }
+        catch(Exception e){
+            System.out.println("Error.."+e.getMessage());
+        }
 
     }
 }
