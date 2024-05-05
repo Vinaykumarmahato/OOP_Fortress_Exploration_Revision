@@ -18,6 +18,7 @@ class Encapsulation {
 
         Age=age;
     }
+    
 
     public void StePosition(String PositionOfStudent){
 
