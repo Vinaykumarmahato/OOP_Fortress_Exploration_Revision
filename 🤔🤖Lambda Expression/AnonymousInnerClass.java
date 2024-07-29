@@ -3,6 +3,8 @@ interface Car {
     void drive();
 }
 
+
+
 // Main class demonstrating the usage of an Anonymous Inner Class
 public class AnonymousInnerClass {
 
