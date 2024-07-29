@@ -3,6 +3,7 @@
  */
 
 
+
 class Encapsulation {
 
     private String name;
