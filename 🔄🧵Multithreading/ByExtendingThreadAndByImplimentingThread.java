@@ -13,6 +13,7 @@ class calculator extends Thread implements Runnable{
         System.out.println("The sum of two numbers is: "+c);
 
     }
+    
 }
 
 class motivation extends Thread{
