@@ -7,6 +7,7 @@ class Calculation implements Runnable {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Let's do some math!");
 
+        
         // Get user input
         System.out.println("Enter the first number:");
         int num1 = scanner.nextInt();
