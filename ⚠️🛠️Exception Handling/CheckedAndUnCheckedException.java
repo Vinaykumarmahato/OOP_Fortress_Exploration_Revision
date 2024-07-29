@@ -5,6 +5,7 @@ public class CheckedAndUnCheckedException {
     
     public static void main(String[] args) {
         
+        
         int Result = 7 / 0;
         // In this line, the compiler doesn't force you to handle the Exception, and it will show an exception error during runtime.
         // This type of exception is called an Unchecked Exception.
