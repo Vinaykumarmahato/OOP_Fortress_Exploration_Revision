@@ -12,6 +12,7 @@ class Aeroplane {
 
 }
 
+
 class CargoPlane extends Aeroplane {
 
     public void TakeOff() {
