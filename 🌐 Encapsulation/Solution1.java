@@ -1,7 +1,6 @@
 /**
  * Solution1
  */
-
 class Encapsulation {
 
     private String name;
