@@ -11,6 +11,7 @@ class human {
     }
 }
 
+
 public class ConstructorSolution1 {
 
     public static void main(String[] args) {
