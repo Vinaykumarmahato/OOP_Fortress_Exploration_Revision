@@ -6,6 +6,7 @@ class Helicopter {
         System.out.println("Helicopter is Taking Off");
     }
 
+    
     // Method for flying
     public void Fly() {
         System.out.println("Helicopter is Flying in the Sky");
