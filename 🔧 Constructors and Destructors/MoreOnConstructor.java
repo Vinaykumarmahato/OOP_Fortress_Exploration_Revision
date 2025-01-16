@@ -12,6 +12,7 @@ class Animal{
 
     }
 
+    
     public String toString(){
         return "Name: "+name+" Age: "+age+" Colour: "+colour;
     
