@@ -13,8 +13,6 @@ abstract class Aeroplane {
     // Variable ko abstract nahi bana sakte hai
     // constructor ko bhi abstract nahi bana sakte hai kyo usme super method call 
     // hota hai jisme boddy hota hai jabki abstract class me jo method hoga uska body nahi hoga
-
-
 }
 
 class Cargoplane extends Aeroplane{
