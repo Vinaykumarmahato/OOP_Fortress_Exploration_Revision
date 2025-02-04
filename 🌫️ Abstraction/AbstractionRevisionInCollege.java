@@ -7,8 +7,6 @@ abstract class Aeroplane {
     public void landing(){
         System.out.println("Aeroplane is landing.......");
     }
-
-    
     // in this situation , aap kabhi bhi 100% abstraction achieve nahi kar paoge
     //  kyo ki es class me abstract method bhi haiaur non abstract method bhi hai
     // Variable ko abstract nahi bana sakte hai
