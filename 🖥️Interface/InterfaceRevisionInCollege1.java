@@ -6,7 +6,6 @@ interface B {
     void human();
 }
 
-
  // agarhaya par implement nahi hoga show to error deg kyo ki bolta hai ki must
     // be implement in implemented class
     // ek class ak se adhik interface ko bhi implements kar sakta hai bas ek kam
