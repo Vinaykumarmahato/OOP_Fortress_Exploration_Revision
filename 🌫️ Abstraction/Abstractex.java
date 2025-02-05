@@ -3,7 +3,6 @@ abstract class Aeroplane {
     abstract public void TakeOff();
 
     abstract public void Fly();
-
     // abstract int age=20; Variable can not be Abstract
 
     // Note: Constructor also can not be a abstract because by default include super
