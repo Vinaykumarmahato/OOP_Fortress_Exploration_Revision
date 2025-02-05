@@ -6,8 +6,6 @@ class MyException extends Exception {
         // This part doesn't really do anything important, so you can ignore it for now.
         // It's like a note we wrote but didn't use.
     }
-
-    
     // This is like a special note that also carries a message when things go wrong
     public MyException(String msg) {
         super(msg); // This part is like telling the computer to remember the message we wrote in our special note
