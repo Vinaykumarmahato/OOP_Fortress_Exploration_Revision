@@ -65,9 +65,6 @@ public class AbstractionRevisionInCollege {
 
         //Aeroplane ae=new Aeroplane(); we can not create the object of the abstract class
 
-
-
-
         
 /*
  * Agara hamare pass multiple class hai aur sabhi class parent class ko inherits kiya hai aur parent class me kuchh method hai 
